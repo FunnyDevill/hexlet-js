@@ -1,6 +1,7 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type":"module",
   "description": "Мой первый проект на Хекслите",
   "main": "index.js",
   "scripts": {
@@ -11,5 +12,8 @@
     "url": "hexlet-js"
   },
   "author": "",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
